@@ -13,5 +13,11 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-button id="present-alert">20th August 2024</ion-button>
+  <ion-alert
+    trigger="present-alert"
+    header="Tutorial Time"
+    message="Don't forget class!"
+    [buttons]="alertButtons"
+  ></ion-alert>
 </ion-content>
